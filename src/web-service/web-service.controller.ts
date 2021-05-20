@@ -6,7 +6,7 @@ export class WebServiceController {
   constructor(private webServiceService: WebServiceService) {
   }
 
-  @Get()
+  @Get('android')
   getAllInformation() {
     return this.webServiceService.getAllInfo()
   }

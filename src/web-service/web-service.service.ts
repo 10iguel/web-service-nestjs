@@ -1,23 +1,23 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common'
 
 @Injectable()
 export class WebServiceService {
   private information = [
     {
-      name: 'Miguel',
-      lastName: 'Espinoza',
+      name: 'Robert',
+      lastName: 'Stan'
     },
     {
-      name: 'daniela',
-      lastName: 'chewbacca',
+      name: 'Iron',
+      lastName: 'Man'
     },
     {
-      name: 'Alexis',
-      lastName: 'chewbacca',
-    },
-  ];
+      name: 'Han',
+      lastName: 'chewbacca'
+    }
+  ]
 
   getAllInfo() {
-    return this.information;
+    return this.information
   }
 }
